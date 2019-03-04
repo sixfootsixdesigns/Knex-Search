@@ -1,0 +1,21 @@
+{
+  "extends": [
+    "tslint:recommended",
+    "tslint-eslint-rules",
+    "tslint-config-prettier"
+  ],
+  "rules": {
+    "ban": [
+      true,
+      "eval",
+      { "name": ["it", "only"], "message": "don't focus tests" },
+      { "name": ["describe", "only"], "message": "don't focus tests" }
+    ],
+    "quotemark": [true, "single", { "avoidEscape": true }],
+    "trailing-comma": false,
+    "only-arrow-functions": true,
+    "object-literal-sort-keys": false,
+    "no-console": false,
+    "ordered-imports": false
+  }
+}

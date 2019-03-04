@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "allowJs": true,
+    "declaration": false,
+    "experimentalDecorators": true,
+    "target": "es6",
+    "sourceMap": true,
+    "removeComments": true,
+    "noUnusedParameters": false,
+    "noUnusedLocals": true,
+    "moduleResolution": "node",
+    "outDir": "./dist",
+    "lib": ["es2018"]
+  },
+  "compileOnSave": false,
+  "include": [
+    "./src/**/*"
+  ]
+}
