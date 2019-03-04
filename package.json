@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "knex search utility",
   "license": "MIT",
+  "author": "James Olson",
   "main": "index.js",
   "scripts": {
     "build": "tsc --project .",
