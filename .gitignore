@@ -9,3 +9,5 @@ node_modules/
 
 # build directory
 dist/
+
+.rpt2_cache

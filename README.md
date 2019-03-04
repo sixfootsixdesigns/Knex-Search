@@ -1,5 +1,10 @@
 # Knex Search
 
+## Install
+```
+yarn add knex-search
+```
+
 ## Example
 ```
   import * as knex from 'knex';
