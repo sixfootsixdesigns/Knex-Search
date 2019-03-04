@@ -18,7 +18,7 @@
 
   const results = await searchObject.createSearch(query).run();
 
-  consle.log(results);
+  console.log(results);
 ```
 
 ## Named Request paramaters:
